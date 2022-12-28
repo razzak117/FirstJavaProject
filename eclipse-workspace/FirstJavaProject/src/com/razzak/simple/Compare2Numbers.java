@@ -8,7 +8,7 @@ public class Compare2Numbers {
 		int b;
 		
 		a=50;
-		b=30;
+		b=60;
 		
 		if (a>b) System.out.println("First integer is bigger");
 		else System.out.println("Second integer is bigger");
