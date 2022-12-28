@@ -15,8 +15,12 @@ public class javaElse {
 		
 		}else if(b>c)  { 
 			System.out.println("second int is bigger");
+			
 		}else{
 			System.out.println("Thired int is bigger");
+			
+			
+			System.out.println("welldone Banhladesh");
 		}
 	}
 
