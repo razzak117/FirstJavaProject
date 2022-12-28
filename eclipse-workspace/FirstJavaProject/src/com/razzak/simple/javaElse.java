@@ -7,14 +7,16 @@ public class javaElse {
 		
 		int a=60;
 		int b=70;
-		//int c=60;
+		int c=60;
 		
 		
-		if(a>b) { 
+		if(a>b & a>c) { 
 			System.out.println("First int is bigger");
 		
-		}else { 
+		}else if(b>c)  { 
 			System.out.println("second int is bigger");
+		}else{
+			System.out.println("Thired int is bigger")
 		}
 	}
 
