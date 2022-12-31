@@ -7,11 +7,16 @@ public class swapingValues {
 		int x=10;
 		int y=20;
 				
-		int temp=x;
+		/*int temp=x;
 		
 		x=y;
-		y=temp;
+		y=temp;*/
 		
+		// Second Way
+		
+		x=x+y; 	//30
+		y=x-y;	//10
+		x=x-y;	//20
 		
 		System.out.println("X="+x+", Y="+y);
 	}
