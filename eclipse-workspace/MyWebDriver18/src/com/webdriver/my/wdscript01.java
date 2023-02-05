@@ -8,7 +8,8 @@ public class wdscript01 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Desktop\\SeleniumWD\\chrome\\v108\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Desktop\\SeleniumWD\\chrome\\v108\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumWD\\chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		//driver.get("https://www.wikipedia.org/");
